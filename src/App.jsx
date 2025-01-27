@@ -16,7 +16,7 @@ const App = () => {
   return (
     <>
     <div className="container col-lg-4 p-4 shadow rounded-3 my-5 d-flex flex-column justify-content-center align-items-center">
-      <h1 className="fw-bolder text-center">{Count}</h1>
+      <h1 className="fw-bolder text-center bg-secondary rounded-3 w-100">{Count}</h1>
       <div className="">
       <button onClick={buttonClicked} className="btn btn-success mx-2">Increament</button>
       <button onClick={buttonClicked} className="btn btn-warning mx-2">Reset</button>
